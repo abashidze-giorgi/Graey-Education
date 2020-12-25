@@ -11,7 +11,7 @@ class Color(Enum):
 
 
 class Piece(metaclass=ABCMeta):
-
+    """create piece class"""
     @property
     @abstractmethod
     def display(self):
